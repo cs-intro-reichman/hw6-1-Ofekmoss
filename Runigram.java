@@ -119,7 +119,7 @@ public class Runigram {
 		Color[][] newImage = new Color[numRows][numCols];
 		for (int i = 0; i < numRows; i++) {
 			for (int j = 0; j < numCols; j++) {
-				newImage[i][j] = luminance(newImage[i][j]);
+				newImage[i][j] = luminance(image[i][j]); 
 			}
 		}
 		return newImage;
